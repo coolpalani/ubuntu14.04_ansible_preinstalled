@@ -2,7 +2,7 @@ Ubuntu 14.04 Docker Image, preinstalled Python and Ansible 2.4.2
 
 Steps to build a new Docker Image as locally
 
-root@coolpalani:/#rue -t ubuntu1404-ansible .
+root@coolpalani:/#docker build --rm=true -t ubuntu1404-ansible .
 
 Check the newly build image
 
@@ -10,11 +10,11 @@ root@coolpalani:/#docker images
 
 Execute this image 
 
-root@coolpalani:/# docker run -it ubuntu1404-ansible /bin/bash 
+root@coolpalani:/#docker run -it ubuntu1404-ansible /bin/bash 
 
 Access the container in shell
 
-root@aeccad63d9aa:/# ansible --version 
+root@aeccad63d9aa:/#ansible --version 
 ansible 2.4.2.0
   config file = /etc/ansible/ansible.cfg
   configured module search path = [u'/root/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
