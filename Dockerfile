@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Max Wu
+MAINTAINER Palani
 
 # Install common packages.
 RUN apt-get update \
