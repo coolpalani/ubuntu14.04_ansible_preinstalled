@@ -8,8 +8,12 @@ Check the newly build image
 
 root@coolpalani:/#docker images
 
-Execute this image
-root@coolpalani:/# docker run -it ubuntu1404-ansible /bin/bash
+Execute this image 
+
+root@coolpalani:/# docker run -it ubuntu1404-ansible /bin/bash 
+
+Access the container in shell
+
 root@aeccad63d9aa:/# ansible --version 
 ansible 2.4.2.0
   config file = /etc/ansible/ansible.cfg
